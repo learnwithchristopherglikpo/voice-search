@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul{
+    margin-top:30px;
+}
+li{
+    width:40px;
+    height:20px;
+    list-style: none;
+    float: right;
+    padding:5px;
+}
+li:nth-child(2){
+    background: url(../images/bar.svg) no-repeat;
+    margin-left:15px;
+    background-size: 35px;
+}
+.header button{
+    background-color: blue;
+    color: #fff;
+    padding:10px 12px;
+    margin-top:-5px;
+    cursor: pointer;
+    border:1px solid;
+    border-radius:3px;
+}
+
+#content img{
+    margin-top:200px;
+    margin-left:250px;
+    height: 150px;
+    width:350px;
+}
+.s-wrapper{
+    position: relative;
+}
+.s-icon{
+    position: absolute;
+    top: 11px;
+    left:29%;
+}
+.s-mic{
+    position: absolute;
+    right: 29.5%;
+    cursor: pointer;
+    top:10px;
+}
+input.textbox {
+    width: 550px;
+    height: 40px;
+    border: 1px solid #6c6c6c;
+    border-radius: 6px;
+    outline: none;
+    padding-left: 27px;
+    font-size: 17px;
+}
+.btn1{
+    font-size: 11px;
+    background-color: #f5f5f5;
+    border:1px solid #ddd;
+    padding:10px 15px;
+}
